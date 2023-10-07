@@ -1,0 +1,192 @@
+h1,h2,h3,h4,h5,h6,ul,li,ol,p{
+    margin: 0;
+}
+
+:root{
+   --primary-font:'Abril Fatface', cursive;
+   --second-font: 'Open Sans', sans-serif;
+   --third-font: 'Ubuntu', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#menu ul li a{
+    text-transform: capitalize;
+    color: #222222;
+    font-size: 16px;
+    padding: 42px 19px;
+    transition: .5s;
+    font-family: var(--third-font);
+    font-weight: 300;
+    display: inline-block;
+    
+    
+
+}
+#menu ul li a:hover{
+    background-color: #fff9e6;
+    
+
+}
+
+#banner{
+    height: 606px;
+    background-image: url(./image/bg_img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#banner #your{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: var(--third-font);
+    font-weight: 300;
+    color: #0f2f44;
+
+}
+#banner #success{
+    text-transform: capitalize;
+    font-size: 80px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    
+}
+#banner p{
+    font-size: 16px;
+    font-family: var(--second-font);
+}
+
+#banner a{
+    background-color: #8484bf;
+    padding: 16px 21px;
+    border-radius: 9px;
+    color: #ffffff;
+    transition: .5s;
+    
+}
+#banner .explore a:hover{
+    background-color: orangered;
+}
+
+#banner .explore {
+   margin-top: 60px;
+
+   
+   
+    
+}
+
+    
+   /* background-image: url(./image/bg_img_1.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   height: 672px; */
+    
+
+
+#banner2 .section_info{
+    padding-top: 101px;
+}
+
+#banner2 .section_info #para{
+    padding: 31px 0px;
+}
+
+#banner2 h4{
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 32px;
+    
+}
+
+
+.title_1 a{
+    display: inline-block;
+    background-color: #ffc712;
+    font-size: 20px;
+    color: black;
+    padding: 17px 20px;
+    border-radius: 9px;
+
+    
+    
+    
+}
+.first_anc{
+    background-color: #ffc712;
+}
+
+.title_1 .second_anc{
+    background-color: #ffffff !important;
+    margin-left: 20px;
+    
+}
+
+.block_g_g ul {
+    list-style-type: none;
+    
+}
+
+.block_g_g ul li{
+    margin: 20px 0;
+}
+
+#banner3 .section1_info{
+    text-align: right;
+}
+
+#banner3 {
+    height: 704px;
+    background-image: url(./image/work.png);
+    background-repeat: no-repeat;
+   
+    
+}
+#banner3 .heading{
+    text-align: right;
+}
+
+#banner3 .percentage .block{
+    text-align: right;
+    
+    
+}
+
+#banner h1{
+    text-shadow: 10px -10px 9px orange, -10px -10px 10px orange,  -10px -10px 10px orange, -10px -10px 10px orange, -10px -10px 10px orange, -10px -10px 10px orange;
+}
+
+
+.service_box{
+    width: 25%;
+}
+
+#service .overlay{
+    position: absolute;
+    left: 50px;
+}
+
+.overlay .service_class_icon{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
